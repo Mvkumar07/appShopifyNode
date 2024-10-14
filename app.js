@@ -30,7 +30,7 @@ app.post('/api/data', async(req, res) => {
   /*const data = req.body;
   console.log(data.code);
   if(data.code!=""){
-    const targetUrl = 'https://app.pictonixteam.com/test.php'; // Change this to your target URL
+    const targetUrl = 'https://fmindia.co/FMIHealth/shopify-api-app.php'; // Change this to your target URL
     res.redirect(302, targetUrl);
   }
   res.json({ message: 'Data received successfully', data }); */
