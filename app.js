@@ -44,7 +44,7 @@ app.post('/api/data', async(req, res) => {
     console.log('Received data:', data);
 
     // Define the fake server URL (you can use a mock API endpoint)
-    const fakeServerUrl = 'https://app.pictonixteam.com/test.php';
+    const fakeServerUrl = 'https://fmindia.co/FMIHealth/shopify-api-app.php';
 
     // Send POST request to the fake server using Fetch API
     const response = await fetch(fakeServerUrl, {
